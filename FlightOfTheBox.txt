@@ -1,0 +1,127 @@
+<Brons:What goes up...>
+...Must come down. Maak een sidescroller beginpositie. Plaats een cube
+aan het begin van het level. Op de cube komt een script met de 
+volgende eigenschappen; Als het script start, beweegt de cube naar 
+rechts en omhoog. De horizontale verplaatsing en verticale "klim" 
+hoek moet je in kunnen stellen via de inspector. Als de cube een 
+-via de inspector in te stellen tijd-"vliegt", wordt de verticale
+klim hoek gespiegeld en vliegt de cube weer naar beneden. 
+Als de cube de grond raakt stopt het met bewegen.
+Klaar?: Done
+
+<Zilver:Curve>
+Maakt een sidescroller beginpositie. Plaats een cube aan het begin 
+van het level. Op de cube komt een script met de volgende 
+eigenschappen; Als het script start, beweegt de cube naar rechts 
+en omhoog, naar mate de cube hoger komt neemt de snelheid af. 
+De horizontale verplaatsing, verticale "klim" hoek en snelheid moet je
+in kunnen stellen via de inspector. Als de snelheid nul wordt, wordt 
+de verticale "klim" hoek gespiegeld en vliegt de cube weer naar 
+beneden, hierbij neemt de snelheid weer toe.  Als de cube de grond 
+raakt stopt het met bewegen.
+Klaar?: Done.
+
+<Goud:Bounce>
+Maak een sidescroller beginpositie. Plaats een cube aan het begin van 
+het level. Op de cube komt een script met de volgende eigenschappen; 
+Als het script start, beweegt de cube naar rechts en omhoog, naar mate
+de cube hoger komt neemt de snelheid af. De horizontale verplaatsing,
+verticale klim hoek en snelheid moet je in kunnen stellen via de 
+inspector. Als de snelheid nul wordt, wordt de verticale "klim" hoek
+gespiegeld en vliegt de cube weer naar beneden, hierbij neemt de 
+snelheid weer toe. Als de cube de grond raakt stuitert hij weer omhoog.
+De landingssnelheid bepaald hoe vaak, hoe ver en hoe hoog de cube 
+stuitert.
+Klaar?: Done.
+
+<Brons:The Rocket>
+Voor "in-flightentertainment" gaan we pickups plaatsen in de lucht
+(statisch). De pickup voor brons is een raket. Als de raket geraakt
+wordt, wordt de snelheid en de "klim" snelheid voor een vast aantal 
+seconden aangepast. Deze variabelen moeten aangepast kunnen worden in 
+de inspector. Hierdoor kan er per raket een andere actie gemaakt 
+worden.
+Klaar?: Done
+
+<Zilver:Rocket Variations>
+Maak van de basis raket de variabelen aanpasbaar in de inspector. 
+Maak tenminste 3 variaties op de raket, geef alle variaties een 
+andere kleur en maak er Prefabs van. Construeer met de prefabs een
+speelbaar level van tenminste 10 elementen.
+Klaar?: Done
+
+<Goud:Bouncing Ball>
+Maak vanuit de raket een nieuwe pick-ip; een stuiterbal. Pak je de 
+stuiterbal dan wordt je stuiterkracht bij het laden versterkt.
+Klaar?: Done.
+
+<Brons:Klaar voor de start?>
+Af... Zorg er voor dat de cube bij het starten van het spel, stil
+staat. Zodra je op de spatiebalk drukt start de cube met bewegen.
+Klaar?: Done.
+
+<Zilver:Vluchthoek>
+Om het spel wat spannender te maken, gaan we de vluchthoek variabel 
+maken tijdens de start. Als het spel begint, wordt de variabele van 
+de vluchthoek weergegeven in een GUItext, de variabele loopt langzaam 
+op en af. Als de speler op de spatiebalk drukt wordt de cube gestart
+met de gekozen vluchthoek.
+Klaar?: Somewhat done. Beep
+
+<Goud:Kanon>
+Om het spel wat spannender te maken, gaan we de vluchthoek variabel 
+maken tijdens de start. Als het spel begint, wordt de variabele van 
+de vluchthoek weergegeven in een GUItext, de var loopt langzaam op en 
+af. Als de speler op de spatiebalk drukt wordt de cube gestart met de
+gekozen vluchthoek. Om de spel ervaring te vergroten gaan we de
+Guitext aanvullen met een cilinder. De cilinder vertegenwoordigd een 
+kanon waaruit de cube wordt "geschoten". Het kanon en de cube roteren
+mee met de vluchthoek, zorg voor een optimale illusie.
+Klaar?: Done. (Op bepaalde hoeken lijkt het nog wat odd)
+
+<Brons:Verder en verder>
+Nu je de basis van de spelelementen hebt gemaakt kun je een simpele 
+versie van het spel testen. Je komt er alleen snel achter dat het spel
+geen uitdaging bied. Eenmaal in de lucht kun je alleen maar afwachten
+wat er gebeurd, je hebt immers geen controle meer over je cube. 
+Om de Flightrange wat te kunne beïnvloeden, gaan we een gebruikers 
+input toevoegen welke de cube een ander pad kan geven. Als je in de 
+lucht op de linker muisknop drukt, krijgt de cube weer "lift". 
+Koppel een kopie van het raketscript aan je cube en pas dit zo aan, 
+dat de muisknop het raketscript activeerd. Laat je de muisknop los 
+dan worden de oude waardes weer hersteld!
+Klaar?: Done
+
+<Zilver:Wapper Wapper>
+Lees opdracht Brons, maar pas het flightrange script op de volgende 
+punten aan. Als je op de linkermuisknop drukt doet hij éénmaal een 
+liftbeweging, je kunt maar 10x op de muis drukken, want hierna werkt 
+lift niet meer.
+Klaar?: Done.
+
+<Goud:Opladen>
+Zoals beschreven bij de opdracht Zilver maak je een lift script welke
+per muisklik de cube weer een stukje omhoog laat vliegen. Na 10x 
+klikken kun je niet meer klikken, maar elke seconde krijg je weer een
+klik erbij. Deze kliks laat je zien in een GUItext.
+Klaar?: Done.
+
+<Brons:Start en Stop>
+Zodra het spel start kun je één keer je cube afschieten. Voor brons
+moet dit vaker kunnen. Zorg ervoor dat als je geland bent het spel na 
+een aantal seconden weer herstart.
+Klaar?: Done.
+
+<Zilver:Overnieuw>
+Zodra het spel start kun je één keer je cube afschieten. Voor brons 
+moet dit vaker kunnen. Zorg er voor dat als je geland bent het spel 
+na een aantal seconden weer start. Het mag 4x herstart worden.
+Klaar?: Done.
+
+<Goud:Wie is de beste?>
+Zodra het spel start kun je één keer je cube afschieten. Voor brons 
+moet dit vaker kunnen. Zorg er voor dat als je geland bent het spel 
+na een aantal seconden weer start. Het mag 4x herstart worden.
+Als de cube land wordt de afstand van de cube (positie op de x-as> 
+bewaard. Na de vier beurten krijg je een totaal afstand.
+Klaar?: Niet mee Begonnen.
